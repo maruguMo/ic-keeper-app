@@ -1,0 +1,11 @@
+{
+    "name": "My Codespace",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "postCreateCommand": "nvm install --lts && nvm alias default lts/*",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": []
+      }
+    }
+  }
